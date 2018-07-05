@@ -19,4 +19,9 @@ public class ExemploHystrixController {
     public ResponseEntity teste() {
 		return ResponseEntity.ok(this.exemploHystrixService.exemplo());
 	}
+	
+	@GetMapping(value = "/zuul")
+    public ResponseEntity teste2() {
+		return ResponseEntity.ok("API Gateway Zuul");
+	}
 }
