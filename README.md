@@ -1,5 +1,9 @@
 # Spring Cloud Microservices
-Microserviços com Spring Cloud, Eureka, Hystrix, Zuul e Node.
+Microserviços com Spring Cloud, Eureka, Hystrix, Zuul e NodeJs.
+
+![alt](https://img.shields.io/github/issues/netodeolino/spring-cloud-microservices.svg)
+![alt](https://img.shields.io/github/forks/netodeolino/spring-cloud-microservices.svg)
+![alt](https://img.shields.io/github/stars/netodeolino/spring-cloud-microservices.svg)
 
 ### Instruções
 - Rodar as aplicações na seguinte sequência: config server, eureka server e, por fim, sidecar server.
